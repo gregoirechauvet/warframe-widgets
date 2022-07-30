@@ -1,0 +1,22 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:maxResizeWidth="250dp"
+    android:maxResizeHeight="120dp"
+    android:updatePeriodMillis="840000"
+    android:description="@string/widget_description"
+    android:previewLayout="@layout/cetus_cycle_layout"
+    android:initialLayout="@layout/cetus_cycle_layout"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:configure="com.lesamy.warframewidgets.cetuscycle.CetusCycleConfigurationActivity"
+    android:widgetFeatures="reconfigurable">
+</appwidget-provider>
+
+    <!--
+    android:previewLayout="@layout/example_appwidget_preview"
+    android:initialLayout="@layout/example_loading_appwidget"
+    android:configure="com.lesamy.warframewidgets.WidgetConfigurationActivity"
+     -->

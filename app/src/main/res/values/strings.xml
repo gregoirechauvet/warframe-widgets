@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Warframe widgets</string>
+    <string name="widget_description">Description plop</string>
+    <string name="widget_text">Pif paf pouf</string>
+
+    <string-array name="platforms">
+        <item>PC</item>
+        <item>PlayStation</item>
+        <item>Xbox</item>
+        <item>Nintendo Switch</item>
+    </string-array>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>
